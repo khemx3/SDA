@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d7038f9-565a-472f-bcdc-2c56b02ffb4b" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab1/nonpattern/CourseRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab1/nonpattern/LayoutConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab1/nonpattern/CourseViewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>paint()</find>
+      <find>paint</find>
+      <find>paintBarChartOutline</find>
+      <find>getUpdate</find>
+      <find>bar</find>
+      <find>Record</find>
+      <find>update</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/LayoutConstants.java" />
+        <option value="$PROJECT_DIR$/src/nonpattern/LayoutConstants.java" />
+        <option value="$PROJECT_DIR$/src/nonpattern/CourseViewer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Observer.java" />
+        <option value="$PROJECT_DIR$/src/pattern/BarChartObserver.java" />
+        <option value="$PROJECT_DIR$/src/pattern/PieChartObserver.java" />
+        <option value="$PROJECT_DIR$/src/pattern/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/pattern/CourseData.java" />
+        <option value="$PROJECT_DIR$/src/pattern/Observer.java" />
+        <option value="$PROJECT_DIR$/src/pattern/Observable.java" />
+        <option value="$PROJECT_DIR$/src/lab1/nonpattern/CourseViewer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1680" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA.vpdm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pattern" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pattern" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pattern" />
+      <recent name="com.company" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pattern" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CourseController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.pattern.CourseController" />
+      <module name="SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab1.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.CourseViewer" />
+      <module name="SDA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.nonpattern.CourseViewer" />
+      <module name="SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab1.nonpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="SDA" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CourseViewer" />
+      <item itemvalue="Application.CourseController" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CourseController" />
+        <item itemvalue="Application.CourseViewer" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d7038f9-565a-472f-bcdc-2c56b02ffb4b" name="Default Changelist" comment="" />
+      <created>1578886130942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578886130942</updated>
+      <workItem from="1578886132417" duration="5706000" />
+      <workItem from="1578969989608" duration="2711000" />
+      <workItem from="1578997588816" duration="1915000" />
+      <workItem from="1579014614505" duration="2646000" />
+      <workItem from="1579021168336" duration="412000" />
+      <workItem from="1579061623085" duration="334000" />
+      <workItem from="1579153922176" duration="4527000" />
+      <workItem from="1579162426525" duration="312000" />
+      <workItem from="1579163573952" duration="5462000" />
+      <workItem from="1579170111875" duration="456000" />
+      <workItem from="1579426067694" duration="3029000" />
+      <workItem from="1579432439514" duration="121000" />
+      <workItem from="1579432648243" duration="163000" />
+      <workItem from="1579433040142" duration="10000" />
+      <workItem from="1579433084020" duration="234000" />
+      <workItem from="1579433445667" duration="862000" />
+      <workItem from="1579436604026" duration="527000" />
+      <workItem from="1579485924412" duration="2000" />
+      <workItem from="1579485949405" duration="17000" />
+      <workItem from="1579490534772" duration="550000" />
+      <workItem from="1579491173530" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29998000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="995" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20818071" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" id="Project Explorer" order="7" weight="0.32967034" />
+      <window_info id="Properties Pane" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25536722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937758" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.30290458" />
+      <window_info anchor="bottom" id="Message Pane" order="13" weight="0.32883817" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/CourseRecord">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>CourseRecord</OriginalElement>
+          <nodes>
+            <node x="552.3638392857142" y="308.0">java.awt.Frame</node>
+            <node x="164.00000000000006" y="395.0">java.awt.event.ActionListener</node>
+            <node x="623.6168154761906" y="395.0">java.lang.SuppressWarnings</node>
+            <node x="444.2418154761906" y="231.0">java.awt.Window</node>
+            <node x="838.3638392857142" y="308.0">java.beans.JavaBean</node>
+            <node x="1344.3638392857142" y="308.0">javax.swing.SwingContainer</node>
+            <node x="598.7418154761906" y="0.0">java.awt.MenuContainer</node>
+            <node x="653.3638392857142" y="308.0">javax.swing.RootPaneContainer</node>
+            <node x="960.3638392857142" y="308.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="319.7418154761906" y="154.0">javax.accessibility.Accessible</node>
+            <node x="455.7418154761906" y="77.0">java.awt.Component</node>
+            <node x="441.7418154761906" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="291.7418154761906" y="0.0">java.io.Serializable</node>
+            <node x="133.25000000000006" y="308.0">java.util.EventListener</node>
+            <node x="552.1168154761906" y="472.0">nonpattern.CourseViewer</node>
+            <node x="196.0" y="544.0">nonpattern.CourseRecord</node>
+            <node x="455.7418154761906" y="154.0">java.awt.Container</node>
+            <node x="0.0" y="395.0">javax.swing.event.ChangeListener</node>
+            <node x="847.3668154761906" y="395.0">javax.swing.JFrame</node>
+            <node x="1173.3638392857142" y="308.0">javax.swing.WindowConstants</node>
+            <node x="0.0" y="544.0">nonpattern.LayoutConstants</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.awt.Window" target="javax.accessibility.Accessible">
+              <point x="-22.0" y="-13.5" />
+              <point x="466.2418154761906" y="206.0" />
+              <point x="406.7418154761906" y="206.0" />
+              <point x="29.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Window" target="java.awt.Container">
+              <point x="22.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="36.333333333333314" y="-13.5" />
+              <point x="546.5751488095239" y="52.0" />
+              <point x="632.9918154761906" y="52.0" />
+              <point x="-34.25" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="java.awt.Frame">
+              <point x="-25.14285714285711" y="-13.5" />
+              <point x="866.2239583333335" y="365.0" />
+              <point x="592.8638392857142" y="365.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="nonpattern.CourseViewer" target="java.awt.event.ActionListener">
+              <point x="-16.25" y="-13.5" />
+              <point x="600.8668154761906" y="442.0" />
+              <point x="236.00000000000006" y="442.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.WindowConstants">
+              <point x="25.14285714285711" y="-13.5" />
+              <point x="916.5096726190477" y="365.0" />
+              <point x="1248.8638392857142" y="365.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="-36.33333333333337" y="-13.5" />
+              <point x="473.9084821428572" y="52.0" />
+              <point x="356.7418154761906" y="52.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="nonpattern.CourseViewer" target="java.lang.SuppressWarnings">
+              <point x="16.25" y="-13.5" />
+              <point x="633.3668154761906" y="442.0" />
+              <point x="702.6168154761906" y="442.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Frame" target="java.awt.Window">
+              <point x="-20.25" y="-13.5" />
+              <point x="572.6138392857142" y="283.0" />
+              <point x="488.2418154761906" y="283.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.RootPaneContainer">
+              <point x="-12.571428571428555" y="-13.5" />
+              <point x="878.795386904762" y="355.0" />
+              <point x="735.8638392857142" y="355.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.SwingContainer">
+              <point x="37.714285714285666" y="-13.5" />
+              <point x="929.0811011904763" y="375.0" />
+              <point x="1416.3638392857142" y="375.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="nonpattern.CourseViewer" target="javax.swing.event.ChangeListener">
+              <point x="-48.75" y="-13.5" />
+              <point x="568.3668154761906" y="452.0" />
+              <point x="72.0" y="452.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.event.ActionListener" target="java.util.EventListener">
+              <point x="0.0" y="-13.5" />
+              <point x="34.25" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="java.beans.JavaBean">
+              <point x="0.0" y="-13.5" />
+              <point x="891.3668154761906" y="375.0" />
+              <point x="889.3638392857142" y="375.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Frame" target="java.awt.MenuContainer">
+              <point x="20.25" y="-13.5" />
+              <point x="613.1138392857142" y="283.0" />
+              <point x="701.4918154761906" y="283.0" />
+              <point x="34.25" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="12.571428571428555" y="-13.5" />
+              <point x="903.9382440476192" y="355.0" />
+              <point x="1056.8638392857142" y="355.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.event.ChangeListener" target="java.util.EventListener">
+              <point x="0.0" y="-13.5" />
+              <point x="72.0" y="375.0" />
+              <point x="167.50000000000006" y="375.0" />
+              <point x="-34.25" y="13.5" />
+            </edge>
+            <edge source="nonpattern.CourseViewer" target="javax.swing.JFrame">
+              <point x="48.75" y="-13.5" />
+              <point x="665.8668154761906" y="452.0" />
+              <point x="891.3668154761906" y="452.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.accessibility.Accessible">
+              <point x="-37.71428571428578" y="-13.5" />
+              <point x="853.6525297619048" y="375.0" />
+              <point x="348.7418154761906" y="375.0" />
+              <point x="-29.0" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8835274542429284" x="279.0" y="252.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Pattern.BarChartObserver">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Pattern.BarChartObserver</OriginalElement>
+          <nodes>
+            <node x="379.1798245614035" y="231.0">javax.swing.JComponent</node>
+            <node x="0.0" y="467.0">Pattern.LayoutConstants</node>
+            <node x="196.0" y="467.0">Pattern.CourseRecord</node>
+            <node x="371.0" y="467.0">Pattern.CourseData</node>
+            <node x="940.3881578947369" y="308.0">java.awt.event.ActionListener</node>
+            <node x="529.0" y="308.0">java.lang.SuppressWarnings</node>
+            <node x="713.625" y="154.0">java.beans.JavaBean</node>
+            <node x="422.0" y="154.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="426.75" y="395.0">Pattern.BarChartObserver</node>
+            <node x="157.0" y="0.0">java.awt.MenuContainer</node>
+            <node x="243.1798245614035" y="231.0">javax.accessibility.Accessible</node>
+            <node x="171.0" y="77.0">java.awt.Component</node>
+            <node x="532.0" y="467.0">Pattern.Observable</node>
+            <node x="634.25" y="395.0">Pattern.CourseController</node>
+            <node x="0.0" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="314.0" y="0.0">java.io.Serializable</node>
+            <node x="862.046052631579" y="231.0">java.util.EventListener</node>
+            <node x="693.0" y="467.0">Pattern.Observer</node>
+            <node x="776.3881578947369" y="308.0">javax.swing.event.ChangeListener</node>
+            <node x="171.0" y="154.0">java.awt.Container</node>
+            <node x="421.0" y="308.0">javax.swing.JPanel</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
+              <point x="0.0" y="-13.5" />
+              <point x="465.0" y="278.0" />
+              <point x="437.1798245614035" y="278.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="14.5" y="-13.5" />
+              <point x="451.6798245614035" y="201.0" />
+              <point x="518.5" y="201.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.awt.Container">
+              <point x="-43.5" y="-13.5" />
+              <point x="393.6798245614035" y="211.0" />
+              <point x="225.5" y="211.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="Pattern.BarChartObserver" target="javax.swing.JPanel">
+              <point x="-39.5" y="-13.5" />
+              <point x="466.25" y="375.0" />
+              <point x="443.0" y="375.0" />
+              <point x="-22.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
+              <point x="-29.333333333333314" y="-13.5" />
+              <point x="435.6666666666667" y="288.0" />
+              <point x="301.1798245614035" y="288.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="java.beans.JavaBean">
+              <point x="29.33333333333337" y="-13.5" />
+              <point x="494.33333333333337" y="288.0" />
+              <point x="790.125" y="288.0" />
+              <point x="25.5" y="13.5" />
+            </edge>
+            <edge source="Pattern.CourseController" target="java.lang.SuppressWarnings">
+              <point x="-19.75" y="-13.5" />
+              <point x="693.5" y="355.0" />
+              <point x="647.5" y="355.0" />
+              <point x="39.5" y="13.5" />
+            </edge>
+            <edge source="Pattern.BarChartObserver" target="java.lang.SuppressWarnings">
+              <point x="39.5" y="-13.5" />
+              <point x="545.25" y="375.0" />
+              <point x="568.5" y="375.0" />
+              <point x="-39.5" y="13.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="-36.33333333333334" y="-13.5" />
+              <point x="189.16666666666663" y="52.0" />
+              <point x="68.5" y="52.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="36.333333333333314" y="-13.5" />
+              <point x="261.8333333333333" y="52.0" />
+              <point x="346.5" y="52.0" />
+              <point x="-32.5" y="13.5" />
+            </edge>
+            <edge source="Pattern.CourseController" target="javax.swing.JPanel">
+              <point x="-59.25" y="-13.5" />
+              <point x="654.0" y="365.0" />
+              <point x="487.0" y="365.0" />
+              <point x="22.0" y="13.5" />
+            </edge>
+            <edge source="Pattern.CourseController" target="javax.swing.event.ChangeListener">
+              <point x="19.75" y="-13.5" />
+              <point x="733.0" y="365.0" />
+              <point x="848.3881578947369" y="365.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.beans.JavaBean">
+              <point x="43.5" y="-13.5" />
+              <point x="480.6798245614035" y="211.0" />
+              <point x="739.125" y="211.0" />
+              <point x="-25.5" y="13.5" />
+            </edge>
+            <edge source="java.awt.event.ActionListener" target="java.util.EventListener">
+              <point x="0.0" y="-13.5" />
+              <point x="1012.3881578947369" y="288.0" />
+              <point x="964.796052631579" y="288.0" />
+              <point x="34.25" y="13.5" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.event.ChangeListener" target="java.util.EventListener">
+              <point x="0.0" y="-13.5" />
+              <point x="848.3881578947369" y="288.0" />
+              <point x="896.296052631579" y="288.0" />
+              <point x="-34.25" y="13.5" />
+            </edge>
+            <edge source="Pattern.CourseController" target="java.awt.event.ActionListener">
+              <point x="59.25" y="-13.5" />
+              <point x="772.5" y="375.0" />
+              <point x="1012.3881578947369" y="375.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.io.Serializable">
+              <point x="-14.5" y="-13.5" />
+              <point x="422.6798245614035" y="211.0" />
+              <point x="411.5" y="211.0" />
+              <point x="32.5" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="130.0" y="37.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pattern.Observer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pattern.Observer</OriginalElement>
+          <nodes>
+            <node x="" y="">pattern.Observer</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="51.0" y="14.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/pattern/LayoutConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="1018" selection-start-line="1018" selection-end-line="1018" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/pattern/PieChartObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/pattern/BarChartObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/pattern/CourseRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/pattern/CourseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/pattern/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="99" column="34" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/khem/Desktop/SDA/src/nonpattern">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/nonpattern</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="664.0" y="450.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/nonpattern.CourseRecord">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>nonpattern.CourseRecord</OriginalElement>
+          <nodes>
+            <node x="" y="">nonpattern.LayoutConstants</node>
+            <node x="" y="">java.awt.Frame</node>
+            <node x="" y="">java.awt.event.ActionListener</node>
+            <node x="" y="">java.lang.SuppressWarnings</node>
+            <node x="" y="">java.beans.JavaBean</node>
+            <node x="" y="">java.awt.Window</node>
+            <node x="" y="">java.awt.MenuContainer</node>
+            <node x="" y="">javax.swing.RootPaneContainer</node>
+            <node x="" y="">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="" y="">javax.swing.SwingContainer</node>
+            <node x="" y="">javax.accessibility.Accessible</node>
+            <node x="" y="">java.awt.Component</node>
+            <node x="" y="">nonpattern.CourseViewer</node>
+            <node x="" y="">java.awt.image.ImageObserver</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">java.util.EventListener</node>
+            <node x="" y="">javax.swing.event.ChangeListener</node>
+            <node x="" y="">java.awt.Container</node>
+            <node x="" y="">javax.swing.JFrame</node>
+            <node x="" y="">javax.swing.WindowConstants</node>
+            <node x="" y="">nonpattern.CourseRecord</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8147239263803681" x="795.0" y="294.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/pattern/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/pattern/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pattern">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pattern</OriginalElement>
+          <nodes>
+            <node x="0.0" y="79.0">pattern.Observer</node>
+            <node x="8.097222222222229" y="158.0">pattern.Observable</node>
+            <node x="47.625" y="0.0">pattern.CourseRecord</node>
+            <node x="66.92592592592592" y="237.0">pattern.CourseData</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pattern.CourseData" target="pattern.CourseRecord">
+              <point x="42.0" y="-14.5" />
+              <point x="171.92592592592592" y="212.0" />
+              <point x="155.59722222222223" y="212.0" />
+              <point x="155.59722222222223" y="54.0" />
+              <point x="171.875" y="54.0" />
+              <point x="53.25" y="14.5" />
+            </edge>
+            <edge source="pattern.CourseData" target="pattern.Observable">
+              <point x="-42.0" y="-14.5" />
+              <point x="87.92592592592592" y="212.0" />
+              <point x="71.09722222222223" y="212.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="pattern.Observable" target="pattern.CourseRecord">
+              <point x="47.25" y="-14.5" />
+              <point x="118.34722222222223" y="133.0" />
+              <point x="120.84722222222223" y="133.0" />
+              <point x="120.84722222222223" y="54.0" />
+              <point x="100.875" y="54.0" />
+              <point x="-17.75" y="14.5" />
+            </edge>
+            <edge source="pattern.Observer" target="pattern.CourseRecord">
+              <point x="0.0" y="-14.5" />
+              <point x="55.0" y="54.0" />
+              <point x="65.375" y="54.0" />
+              <point x="-53.25" y="14.5" />
+            </edge>
+            <edge source="pattern.Observer" target="pattern.Observable">
+              <point x="36.66666666666666" y="14.5" />
+              <point x="91.66666666666666" y="133.0" />
+              <point x="86.84722222222223" y="133.0" />
+              <point x="15.75" y="-14.5" />
+            </edge>
+            <edge source="pattern.Observable" target="pattern.Observer">
+              <point x="-15.75" y="-14.5" />
+              <point x="-7.105427357601002E-15" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-143.0" y="-79.0" />
+          <SelectedNodes>
+            <node>pattern.CourseRecord</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/nonpattern">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>nonpattern</OriginalElement>
+          <nodes>
+            <node x="227.0" y="11.0">nonpattern.LayoutConstants</node>
+            <node x="83.74999999999999" y="101.0">nonpattern.CourseViewer</node>
+            <node x="0.0" y="0.0">nonpattern.CourseRecord</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="nonpattern.CourseViewer" target="nonpattern.CourseRecord">
+              <point x="0.0" y="-25.5" />
+              <point x="51.75" y="25.5" />
+            </edge>
+            <edge source="nonpattern.CourseViewer" target="nonpattern.LayoutConstants">
+              <point x="47.66666666666666" y="-25.5" />
+              <point x="202.91666666666663" y="76.0" />
+              <point x="310.0" y="76.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-341.0" y="-121.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pattern.BarChartObserver">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pattern.BarChartObserver</OriginalElement>
+          <nodes>
+            <node x="652.0" y="60.0">pattern.Observer</node>
+            <node x="9.5" y="47.0">pattern.Observable</node>
+            <node x="339.0" y="368.0">pattern.CourseRecord</node>
+            <node x="339.0" y="194.0">pattern.BarChartObserver</node>
+            <node x="652.0" y="161.0">pattern.CourseController</node>
+            <node x="605.0" y="368.0">pattern.LayoutConstants</node>
+            <node x="965.0" y="194.0">pattern.PieChartObserver</node>
+            <node x="3.0" y="237.0">pattern.CourseData</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pattern.CourseData" target="pattern.Observable">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="pattern.CourseController" target="pattern.Observer">
+              <point x="0.0" y="-81.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="pattern.BarChartObserver" target="pattern.Observer">
+              <point x="0.0" y="-48.0" />
+              <point x="485.5" y="136.0" />
+              <point x="700.8333333333333" y="136.0" />
+              <point x="-97.66666666666669" y="25.5" />
+            </edge>
+            <edge source="pattern.PieChartObserver" target="pattern.Observer">
+              <point x="0.0" y="-48.0" />
+              <point x="1111.5" y="136.0" />
+              <point x="896.1666666666667" y="136.0" />
+              <point x="97.66666666666674" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="644.0" y="430.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SDA.vpdm/Class Diagram1.vpd">
+      <provider editor-type-id="VPUMLDiagram" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/nonpattern/CourseRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/nonpattern/LayoutConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab1/nonpattern/CourseViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
