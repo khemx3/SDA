@@ -11,5 +11,6 @@ public class TestBabyMonitor {
 		BabyMonitorAdvanced kitchen = new BabyMonitorAdvanced("Living room ", marla, charlie);
 		marla.setData(true, 2);
 		charlie.setData(true,1);
+
 	}
 }

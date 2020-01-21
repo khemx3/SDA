@@ -1,29 +1,37 @@
 package lab2.task1;
 
+import java.util.Observable;
+import java.util.Observer;
+
 public class BabyMonitorSimple implements Observer {
 
-	private Subject mdata;
+	private Baby mdata;
 	private String name;
 	private boolean crying;
+
+	private Baby baby ;
 	
 	public BabyMonitorSimple(String location, Baby d) {
 		this.mdata=d;
 		this.name=location;
-		mdata.registerObserver(this);
+		mdata.addObserver(this);
 	}
 		
 	public void display() {
 		if (crying) {
-			System.out.println("Monitor:" + name + " baby is crying");
+			System.out.println("Monitor:"+ name + " baby is crying");
 		}
 	}
 	
 	public void turnOff() {
-		mdata.removeObserver(this);
+		mdata.deleteObserver(this);
 	}
 
-	public void update(String name, boolean crying, int level) {
-		this.crying=crying;
+	@Override
+	public void update(Observable o, Object arg) {
+		baby = (Baby) o;
+		this.crying=baby.getCrying();
 		display();
 	}
+
 }
