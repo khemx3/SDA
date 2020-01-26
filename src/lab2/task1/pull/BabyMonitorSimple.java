@@ -1,4 +1,4 @@
-package lab2.task1;
+package lab2.task1.pull;
 
 import java.util.Observable;
 import java.util.Observer;

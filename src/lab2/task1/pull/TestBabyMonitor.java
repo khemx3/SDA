@@ -1,4 +1,4 @@
-package lab2.task1;
+package lab2.task1.pull;
 
 public class TestBabyMonitor {
 	public static void main(String[] args) {
@@ -7,10 +7,10 @@ public class TestBabyMonitor {
 		BabyMonitorSimple livingRoom = new BabyMonitorSimple("kitchen ", marla);
 		marla.setData(true, 1);
 		// one monitor listening to two babies
+		/*
 		Baby charlie = new Baby("Charlie");
 		BabyMonitorAdvanced kitchen = new BabyMonitorAdvanced("Living room ", marla, charlie);
 		marla.setData(true, 2);
-		charlie.setData(true,1);
-
+		charlie.setData(true,1);*/
 	}
 }

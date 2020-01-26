@@ -1,4 +1,4 @@
-package lab2.task1;
+package lab2.task1.pull;
 
 
 import java.util.Observable;
@@ -15,7 +15,8 @@ public class BabyMonitorAdvanced implements Observer {
 	
 	public BabyMonitorAdvanced(String name, Baby m, Baby c) {
 		this.name=name; this.mdata=m; this.cdata=c;
-		mdata.addObserver(this);cdata.addObserver(this);
+		mdata.addObserver(this);
+		cdata.addObserver(this);
 	}
 	
 	public void display() {
