@@ -4,14 +4,12 @@ public abstract class GameCharacter {
     protected GuitarBehavior guitarBehavior;
     protected SoloBehavior soloBehavior;
 
-    public GameCharacter setGuitarBehavior(GuitarBehavior guitarBehavior) {
+    public void setGuitarBehavior(GuitarBehavior guitarBehavior) {
         this.guitarBehavior = guitarBehavior;
-        return this;
     }
 
-    public GameCharacter setSoloBehavior(SoloBehavior soloBehavior) {
+    public void setSoloBehavior(SoloBehavior soloBehavior) {
         this.soloBehavior = soloBehavior;
-        return this;
     }
 
     public void playGuitar(){
