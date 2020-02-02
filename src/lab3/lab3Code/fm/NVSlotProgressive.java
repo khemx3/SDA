@@ -1,5 +1,3 @@
-package lab3.lab3Code.fm;
-
 public class NVSlotProgressive extends Slot {
 	
 	public NVSlotProgressive() {

@@ -1,4 +1,3 @@
-package lab3.lab3Code.fm;
 
 public class NVSlotStore extends SlotStore {
 	

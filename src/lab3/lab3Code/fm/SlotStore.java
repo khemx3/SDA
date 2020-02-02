@@ -1,4 +1,3 @@
-package lab3.lab3Code.fm;
 
 public abstract class SlotStore {
 	public Slot orderSlot(slottype type) {
