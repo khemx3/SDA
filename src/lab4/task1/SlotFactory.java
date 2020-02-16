@@ -2,7 +2,7 @@ package lab4.task1;
 
 public abstract class SlotFactory {
 
-	public Slot orderSlot(String type) {
+	public  Slot orderSlot(String type) {
 		Slot slot = makeSlot(type);
 		System.out.println("--- Making a " + slot.getName() + " ---");
 		slot.build();

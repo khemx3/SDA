@@ -5,12 +5,9 @@ public class SlotMachineApp {
 		// TODO Auto-generated method stub
 		SlotFactory njFactory = new NJSlotFactory();
 		SlotFactory nvFactory = new NVSlotFactory();
-		SlotFactory wtFactory = new WTSlotFactory();
-		Slot slot = njFactory.orderSlot("bonus");
+		Slot slot = njFactory.orderSlot("bonus");	
 		System.out.println("Taj Mahal ordered a " + slot + "\n");
-		Slot slot2 = nvFactory.orderSlot("progressive");
+		Slot slot2 = nvFactory.orderSlot("progressive");	
 		System.out.println("Peppermill ordered a " + slot2 + "\n");
-		Slot slot3 = wtFactory.orderSlot("straight");
-		System.out.println("Pisza ordered a " + slot3 + "\n");
 	}
 }
