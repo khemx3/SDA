@@ -1,4 +1,4 @@
-package Lect4.Exercise.AbstractFactory;
+package lab4.task1;
 
 public class WindowsME implements OS {
     @Override
