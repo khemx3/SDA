@@ -12,6 +12,10 @@ public class WSlotFactory extends SlotFactory {
             slot=new ProgressiveSlot(componentFactory);
             slot.setName("Washington Style Progressive Slot");
         }
+        else if (item.equals("straight")) {
+            slot=new StraigthSlot(componentFactory);
+            slot.setName("Washington Style Straight Slot");
+        }
         return slot;
     }
 }
