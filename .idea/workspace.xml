@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d7038f9-565a-472f-bcdc-2c56b02ffb4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/BallsBlue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/BallsRed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/BallsSilver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/BalsamFir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/ColoradoBlueSpruce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/DouglasFir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/FraserFir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/LEDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/Lights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/Ribbons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab4/task2/Bar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab4/task2/BarProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab4/task2/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab4/task2/OompaloompaBarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab4/task2/SingletonfactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab4/task2/WonkaBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab4/task2/WonkaBarFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/BlueSpruce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/BlueSpruce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/Test_tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/lab3Code/xmastree/Test_tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -67,7 +63,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,7 +80,59 @@
       <recent name="$PROJECT_DIR$/src/pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test_tree">
+  <component name="RunManager" selected="Application.SingletonfactoryTest (1)">
+    <configuration name="SingletonfactoryTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab4.task2.SingletonfactoryTest" />
+      <module name="SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab4.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonfactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab4.lab4Code.SingletonFactory.SingletonfactoryTest" />
+      <module name="SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab4.lab4Code.SingletonFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlotMachineApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab4.lab4Code.AbstractFactory.SlotMachineApp" />
+      <module name="SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab4.lab4Code.AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlotMachineApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab4.task1.SlotMachineApp" />
+      <module name="SDA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab4.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SlotMachineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab3.task2.SlotMachineTest" />
       <module name="SDA" />
@@ -98,66 +146,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBabyMonitor (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab2.task1.pull.TestBabyMonitor" />
-      <module name="SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab2.task1.pull.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBabyMonitor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab2.task1.push.TestBabyMonitor1" />
-      <module name="SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab2.task1.push.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSlots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestSlots" />
-      <module name="SDA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab3.lab3Code.xmastree.Test_tree" />
-      <module name="SDA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab3.lab3Code.xmastree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TestBabyMonitor (2)" />
-      <item itemvalue="Application.TestBabyMonitor1" />
       <item itemvalue="Application.SlotMachineTest" />
-      <item itemvalue="Application.TestSlots" />
-      <item itemvalue="Application.Test_tree" />
+      <item itemvalue="Application.SlotMachineApp" />
+      <item itemvalue="Application.SingletonfactoryTest" />
+      <item itemvalue="Application.SlotMachineApp (1)" />
+      <item itemvalue="Application.SingletonfactoryTest (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test_tree" />
-        <item itemvalue="Application.TestSlots" />
+        <item itemvalue="Application.SingletonfactoryTest (1)" />
+        <item itemvalue="Application.SlotMachineApp (1)" />
+        <item itemvalue="Application.SlotMachineApp" />
+        <item itemvalue="Application.SingletonfactoryTest" />
         <item itemvalue="Application.SlotMachineTest" />
-        <item itemvalue="Application.TestBabyMonitor1" />
-        <item itemvalue="Application.TestBabyMonitor (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,11 +212,19 @@
       <workItem from="1579969280459" duration="1713000" />
       <workItem from="1580013492100" duration="942000" />
       <workItem from="1580652639008" duration="5751000" />
+      <workItem from="1581874153778" duration="1166000" />
+      <workItem from="1581906563739" duration="526000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/SDALab" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Project_Structure" timestamp="1579851244135">
@@ -237,10 +247,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579851257588" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1579851385034">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581906846845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579851385034" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581906846845" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1580662597724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -257,10 +267,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580662597724" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1580652643255">
+    <state x="277" y="56" key="SettingsEditor" timestamp="1581874493521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580652643255" />
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581874493521" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581906597892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581906597892" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1579969529958">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
