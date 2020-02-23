@@ -3,7 +3,7 @@ package lab4.task2;
 public class WonkaBarFactory implements Factory {
 	private int counter=0;
 	
-	private static WonkaBarFactory uniqueInstance = new WonkaBarFactory();
+	private static WonkaBarFactory uniqueInstance; // = new WonkaBarFactory();
 	
 	private WonkaBarFactory() {
 	}

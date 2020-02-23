@@ -1,8 +1,23 @@
 package lab4.task2;
 
 public class OompaloompaBarFactory implements Factory {
-    @Override
-    public Bar create(int id) {
-        return null;
+
+    private int counter = 0;
+    private static OompaloompaBarFactory uniqueInstance;
+
+    private OompaloompaBarFactory(){
+    }
+
+    public synchronized  Bar create(int id){
+        Bar bar = new OompaloompaBar(counter++);
+        System.out.println(id+ " creates new Oompaloompa bar created with id:" + counter);
+        return bar;
+    }
+
+    public static synchronized OompaloompaBarFactory getInstance(){
+        if( uniqueInstance == null){
+            uniqueInstance = new OompaloompaBarFactory();
+        }
+        return uniqueInstance;
     }
 }
