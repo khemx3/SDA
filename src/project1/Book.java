@@ -1,12 +1,12 @@
 package project1;
 
 public class Book {
-    private double price;
+    private Double price;
     private Integer uniqueID, quantity;
     private String name;
     private static int count = 0;
 
-    Book(String newName, Integer newPrice, Integer newQuantity ){
+    Book(String newName, Double newPrice, Integer newQuantity ){
         this.name = newName;
         this.price = newPrice;
         this.uniqueID = ++count;
@@ -18,7 +18,7 @@ public class Book {
     }
 
     public Double getPrice() { return price; }
-    public void setPrice(Integer price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
