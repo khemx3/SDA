@@ -1,13 +1,13 @@
 package project1;
 
+import java.util.List;
+
 public class Memento {
-   private String state;
 
-   public Memento(String state) {
-      this.state = state;
-   }
+    private List<Book> bookList;
 
-   public String getState() {
-      return state;
-   }
+    protected Memento(List<Book> list) { this.bookList = list; }
+
+
+
 }

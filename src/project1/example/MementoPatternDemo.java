@@ -1,4 +1,4 @@
-package project1;
+package project1.example;
 
 public class MementoPatternDemo {
    public static void main(String[] args) {
