@@ -1,12 +1,11 @@
 package project1;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class Memento {
 
-    private List<Book> bookList;
+    private ArrayList<Book> bookList;
 
-    protected Memento(List<Book> list) { this.bookList = list; }
 
 
 
