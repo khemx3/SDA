@@ -2,6 +2,6 @@ package project1;
 
 public abstract class Command {
 	
-	public abstract void execute(Inventory newInvent);
+	public abstract void execute(concreteInventory newInvent);
 	
 }
