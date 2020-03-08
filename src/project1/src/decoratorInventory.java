@@ -28,7 +28,8 @@ public class decoratorInventory implements Inventory{
     }
 
     public void sellBook(Integer bookID) throws MatchNotFoundException {
-
+        sellBookCommand sellBook = new sellBookCommand(bookID);
+        sellBook.execute(inventory);
     }
 
     public void addCopy(Integer bookID, Integer numberOfCopy) throws MatchNotFoundException {

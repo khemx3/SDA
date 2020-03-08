@@ -7,17 +7,23 @@ import java.io.ObjectOutputStream;
 /*
 This class used to execute addBook method on inventory and serialize it to file.
 */
-public class addBookCommand extends Command{
+public class addCopyCommand extends Command{
 
-    private Book book;
+    private Integer bookId;
+    private Integer numberOfCopy;
     public String fileName = "src/project1/Command.ser";
 
-    addBookCommand(Book newBook) { this.book =  newBook; }
+    addCopyCommand(Integer bookID, Integer numberOfCopy) { this.bookId =  bookID;
+    this.numberOfCopy = numberOfCopy;}
 
     @Override
     public void execute(concreteInventory inventory) {
 
-        inventory.addBook(book);
+        try {
+            inventory.addCopy(bookId,numberOfCopy);
+        } catch (MatchNotFoundException e) {
+            e.printStackTrace();
+        }
 
         try {
             FileOutputStream fileOut = new FileOutputStream(fileName,true);
