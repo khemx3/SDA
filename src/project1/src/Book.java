@@ -1,6 +1,8 @@
 package project1.src;
 
-public class Book {
+import java.io.Serializable;
+
+public class Book implements Serializable {
     private Double price;
     private Integer uniqueID, quantity;
     private String name;

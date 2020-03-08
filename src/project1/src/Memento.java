@@ -7,9 +7,9 @@ public class Memento implements Serializable {
 
     private ArrayList<Book> bookList;
 
-    public void saveState(ArrayList<Book> newMovieCollection){
+    public void saveState(ArrayList<Book> newBookList){
 
-        this.bookList = new ArrayList<Book>(newMovieCollection);
+        this.bookList = new ArrayList<Book>(newBookList);
 
     }
 
