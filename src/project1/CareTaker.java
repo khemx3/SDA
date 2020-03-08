@@ -13,10 +13,35 @@ public class CareTaker {
 
     public void serializeMemento(Memento state) {
         // object to stream
+        try
+        {
+            FileOutputStream temporaryFileOut = new FileOutputStream(temporaryFileName);
+            ObjectOutputStream out = new ObjectOutputStream(temporaryFileOut);
+            out.writeObject(state);
+            out.close();
+            temporaryFileOut.close();
+            tempFile.renameTo(file);
+        }catch(IOException i) {}
     }
 
     public Memento deserializeMemento() {
         // stream to object
-        return null;
+        try
+        {
+            FileInputStream fileIn = new FileInputStream(fileName);
+            ObjectInputStream in = new ObjectInputStream(fileIn);
+            object = in.readObject();
+            in.close();
+            fileIn.close();
+            return (Memento)object;
+        }catch(IOException i)
+        {
+            return null;
+
+        }catch(ClassNotFoundException c)
+        {
+            System.out.println("class not found");
+            return null;
+        }
     }
 }
