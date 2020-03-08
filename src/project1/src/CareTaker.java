@@ -1,11 +1,11 @@
-package project1;
+package project1.src;
 
 import java.io.*;
 
 public class CareTaker {
     private Object object;
-    private String temporaryFileName = "temporaryInventory.ser";
-    private String fileName = "Inventory.ser";
+    private String temporaryFileName = "src/project1/temporaryInventory.ser";
+    private String fileName = "src/project1/Inventory.ser";
     private File tempFile = new File(temporaryFileName);
     private File file = new File(fileName);
     byte[] buf = new byte[1024];

@@ -1,4 +1,4 @@
-package project1;
+package project1.src;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -11,7 +11,7 @@ This class used to execute addBook method on inventory and serialize it to file.
 public class addBookCommand extends Command implements Serializable{
 
     private Book book;
-    public String fileName = "Command.ser";
+    public String fileName = "src/project1/Command.ser";
 
     addBookCommand(Book newBook) { this.book =  newBook; }
 

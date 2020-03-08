@@ -1,4 +1,4 @@
-package project1;
+package project1.src;
 
 public class BookStoreDemo {
     public static void main(String[] args) {
@@ -9,7 +9,6 @@ public class BookStoreDemo {
 
         inventory.addBook(new Book("ABC", 100.0, 5));
         inventory.addBook(new Book("Dog", 10.0, 3));
-
         try {
             name = "ABC";
             id = inventory.findIdByName(name);
@@ -20,8 +19,7 @@ public class BookStoreDemo {
             System.out.println("Match not found ");
         }
 
-        decoratorInventory inventory2 = new decoratorInventory();
-        inventory2.saveState();
-        inventory2.getState();
+//        decoratorInventory inventory2 = new decoratorInventory();
+
     }
 }

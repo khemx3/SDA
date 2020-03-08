@@ -1,4 +1,4 @@
-package project1;
+package project1.src;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class concreteInventory implements Inventory {
     private ArrayList<Book> bookList = new ArrayList <Book>();
     private Memento memento = new Memento();
     private decoratorInventory inventory;
-    private String CommandFileName = "Command.ser";
+    private String CommandFileName = "src/project1/Command.ser";
 
     public ArrayList<Book> getBookList() {
         return  bookList;

@@ -1,4 +1,4 @@
-package project1;
+package project1.src;
 
 import java.io.Serializable;
 import java.util.ArrayList;

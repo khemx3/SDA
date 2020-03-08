@@ -1,4 +1,4 @@
-package project1;
+package project1.src;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ public class decoratorInventory implements Inventory{
     private ArrayList<Command> commandList = new ArrayList<Command>();
     private CareTaker careTaker = new CareTaker();
     private Memento memento = new Memento();
-    private String CommandFileName = "Command.ser";
+    private String CommandFileName = "src/project1/Command.ser";
 
 
     public concreteInventory getInventory() {
@@ -117,5 +117,6 @@ public class decoratorInventory implements Inventory{
         memento = careTaker.deserializeMemento();
         inventory.setBookList(memento.getState());
         this.replyCommands(inventory);
+        System.out.println(memento);
     }
 }

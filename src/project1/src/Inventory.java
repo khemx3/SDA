@@ -1,4 +1,4 @@
-package project1;
+package project1.src;
 
 public interface  Inventory {
     void addBook(Book book);
