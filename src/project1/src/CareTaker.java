@@ -5,7 +5,6 @@ import java.io.*;
 public class CareTaker {
     private Object object;
     private String fileName = "src/project1/Inventory.ser";
-    private File tempFile = new File(temporaryFileName);
     byte[] buf = new byte[1024];
     int bytesRead;
 
