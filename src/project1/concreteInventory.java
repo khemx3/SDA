@@ -1,14 +1,23 @@
 package project1;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class concreteInventory implements Inventory {
 
-    private ArrayList<Book> bookList = new ArrayList <>();
+    private ArrayList<Book> bookList = new ArrayList <Book>();
     private Memento memento = new Memento();
+    private decoratorInventory inventory;
+    private String CommandFileName = "Command.ser";
 
-    public ArrayList<Book> getBookList() { return  bookList; }
-    public void setBookList(ArrayList<Book> bookList) { this.bookList = bookList; }
+    public ArrayList<Book> getBookList() {
+        return  bookList;
+    }
+
+    public void setBookList(ArrayList<Book> bookList) {
+        this.bookList = bookList;
+    }
 
 
     public void addBook(Book book) {
@@ -70,7 +79,13 @@ public class concreteInventory implements Inventory {
     */
     public void saveState() {
         memento.saveState(bookList);
-        // command
+        File file = new File(CommandFileName);
+        file.delete();
+        try {
+            file.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /*
@@ -78,6 +93,7 @@ public class concreteInventory implements Inventory {
     and also runs command to take inventory to original state
     */
     public void getState() {
-        //decorator
+        inventory.getState();
+        bookList = (inventory.getInventory().getBookList());
     }
 }
