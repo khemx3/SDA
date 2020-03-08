@@ -1,35 +1,30 @@
 package project1.src;
 
 public class BookStoreDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MatchNotFoundException {
         decoratorInventory inventory = new decoratorInventory();
-        String name;
-        Double price;
-        Integer id;
+        inventory.addBook(new Book("ABC", 100.0, 5));
+        inventory.addBook(new Book("Dog", 10.0, 3));
 
-//        inventory.addBook(new Book("ABC", 100.0, 5));
-//        inventory.addBook(new Book("Dog", 10.0, 3));
-//        try {
-//            name = "ABC";
-//            id = inventory.findIdByName(name);
-//            price = inventory.findPriceById(id);
-//            System.out.println("Match found id: " + id + "\tname: " + name + "\tprice : " + price);
-//        } catch(MatchNotFoundException e)
-//        {
-//            System.out.println("Match not found ");
-//        }
-//        inventory.saveState();
-        inventory.getState();
-        try {
-            name = "ABC";
-            id = inventory.findIdByName(name);
-            price = inventory.findPriceById(id);
-            System.out.println("Match found id: " + id + "\tname: " + name + "\tprice : " + price);
-        } catch(MatchNotFoundException e)
-        {
-            System.out.println("Match not found ");
-        }
-//        decoratorInventory inventory2 = new decoratorInventory();
+
+
+        inventory.saveState();
+        inventory.listBook();
+
+        System.out.printf("Test\n");
+
+        decoratorInventory inventory1 = new decoratorInventory();
+        inventory1.getState();
+        inventory1.addBook(new Book("Dog", 10.0, 3));
+        inventory1.saveState();
+        inventory1.listBook();
+
+        decoratorInventory inventory2 = new decoratorInventory();
+        inventory2.getState();
+        inventory2.listBook();
+        inventory2.addBook(new Book("Doge", 10.0, 3));
+        inventory2.saveState();
+        inventory2.listBook();
 
     }
 }

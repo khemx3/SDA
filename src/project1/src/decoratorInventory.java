@@ -119,4 +119,8 @@ public class decoratorInventory implements Inventory{
         this.replyCommands(inventory);
         System.out.println(memento);
     }
+
+    public void listBook(){
+        inventory.listBook();
+    }
 }
