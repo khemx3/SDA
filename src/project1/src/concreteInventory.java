@@ -1,5 +1,7 @@
 package project1.src;
 
+import lab3.lab3Code.xmastree.TreeDecorator;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -8,9 +10,9 @@ public class concreteInventory implements Inventory {
 
     private ArrayList<Book> bookList = new ArrayList <Book>();
     private Memento memento = new Memento();
-    private decoratorInventory inventory;
-    private String CommandFileName = "src/project1/Command.ser";
 
+    private String CommandFileName = "src/project1/Command.ser";
+    private decoratorInventory inventory;
     public ArrayList<Book> getBookList() {
         return  bookList;
     }
@@ -20,36 +22,51 @@ public class concreteInventory implements Inventory {
     }
 
 
-    public void addBook(Book book) {
+    public void addBook(Book book)
+    {
         bookList.add(book);
-        this.saveState();
     }
 
     /* to use this sellBook() method, quantity if that id must more than 1 */
-    public void sellBook(Integer bookID) throws MatchNotFoundException{
-        for (Book book : bookList) {
-            if (book.getUniqueID().equals(bookID) && book.getQuantity() > 1) {
+    public void sellBook(String bookName) throws MatchNotFoundException{
+        for (Book book :bookList){
+            if (book.getName().equals(bookName) && book.getQuantity() > 1){
                 book.changeQuantity(-1);
-                this.saveState();
             }
             return;
         }
         throw new MatchNotFoundException("No Match Found");
+
+//        for (Book book : bookList) {
+//            if (book.getUniqueID().equals(bookID) && book.getQuantity() > 1) {
+//                book.changeQuantity(-1);
+//                this.saveState();
+//            }
+//            return;
+//        }
+//        throw new MatchNotFoundException("No Match Found");
     }
 
 
-    public void addCopy(Integer bookID, Integer numberOfCopy) throws MatchNotFoundException{
+    public void addCopy(String bookName, Integer numberOfCopy) throws MatchNotFoundException{
         for (Book book: bookList ) {
-            if (book.getUniqueID().equals(bookID)) {
+            if (book.getName().equals(bookName)){
                 book.changeQuantity(numberOfCopy);
-                this.saveState();
+                return;
             }
         }
         throw new MatchNotFoundException("No Match Found");
     }
 
 
-    public void changePrice(Integer bookID, Double newPrice) throws MatchNotFoundException{
+    public void changePrice(String bookName, Double newPrice) throws MatchNotFoundException{
+        for (Book book : bookList){
+            if(book.getName().equals(bookName)){
+                book.setPrice(newPrice);
+                return;
+            }
+        }
+        throw new MatchNotFoundException("No Match Found");
     }
 
     /* find id using name*/
@@ -96,4 +113,13 @@ public class concreteInventory implements Inventory {
         inventory.getState();
         bookList = (inventory.getInventory().getBookList());
     }
+
+    public void listBook(){
+        System.out.println("BookID\tName\t\t\tPrice\t\tQuality");
+        for(Book book : bookList)
+        {
+            System.out.println(String.format("%s %9s %16s %14s" ,book.getUniqueID(),book.getName(),book.getPrice(),book.getQuantity()));
+        }
+    }
+
 }

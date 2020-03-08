@@ -9,18 +9,18 @@ This class used to execute addBook method on inventory and serialize it to file.
 */
 public class addCopyCommand extends Command{
 
-    private Integer bookId;
+    private String bookName;
     private Integer numberOfCopy;
     public String fileName = "src/project1/Command.ser";
 
-    addCopyCommand(Integer bookID, Integer numberOfCopy) { this.bookId =  bookID;
+    addCopyCommand(String bookName, Integer numberOfCopy) { this.bookName =  bookName;
     this.numberOfCopy = numberOfCopy;}
 
     @Override
     public void execute(concreteInventory inventory) {
 
         try {
-            inventory.addCopy(bookId,numberOfCopy);
+            inventory.addCopy(bookName,numberOfCopy);
         } catch (MatchNotFoundException e) {
             e.printStackTrace();
         }

@@ -27,17 +27,20 @@ public class decoratorInventory implements Inventory{
 
     }
 
-    public void sellBook(Integer bookID) throws MatchNotFoundException {
-        sellBookCommand sellBook = new sellBookCommand(bookID);
+    public void sellBook(String bookName) throws MatchNotFoundException {
+        sellBookCommand sellBook = new sellBookCommand(bookName);
         sellBook.execute(inventory);
-    }
-
-    public void addCopy(Integer bookID, Integer numberOfCopy) throws MatchNotFoundException {
 
     }
 
-    public void changePrice(Integer bookID, Double newPrice) throws MatchNotFoundException {
+    public void addCopy(String bookName, Integer numberOfCopy) throws MatchNotFoundException {
+        addCopyCommand addCopyCommand = new addCopyCommand(bookName,numberOfCopy);
+        addCopyCommand.execute(inventory);
+    }
 
+    public void changePrice(String bookName, Double newPrice) throws MatchNotFoundException {
+        changePriceCommand changePriceCommand = new changePriceCommand(bookName,newPrice);
+        changePriceCommand.execute(inventory);
     }
 
     public Integer findIdByName(String bookName) throws MatchNotFoundException {
@@ -118,6 +121,11 @@ public class decoratorInventory implements Inventory{
         memento = careTaker.deserializeMemento();
         inventory.setBookList(memento.getState());
         this.replyCommands(inventory);
-        System.out.println(memento);
     }
+
+    public void listBook(){
+        inventory.listBook();
+    }
+
+
 }

@@ -9,12 +9,12 @@ This class used to execute addBook method on inventory and serialize it to file.
 */
 public class changePriceCommand extends Command{
 
-    private Integer bookId;
+    private String bookName;
     private Double newPrice;
     public String fileName = "src/project1/Command.ser";
 
-    changePriceCommand(Integer bookID, Double newPrice) {
-        this.bookId =  bookID;
+    changePriceCommand(String bookName, Double newPrice) {
+        this.bookName =  bookName;
         this.newPrice = newPrice;
     }
 
@@ -22,7 +22,7 @@ public class changePriceCommand extends Command{
     public void execute(concreteInventory inventory) {
 
         try {
-            inventory.changePrice(bookId,newPrice);
+            inventory.changePrice(bookName,newPrice);
         } catch (MatchNotFoundException e) {
             e.printStackTrace();
         }

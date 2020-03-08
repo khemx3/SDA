@@ -9,15 +9,15 @@ This class used to execute addBook method on inventory and serialize it to file.
 */
 public class sellBookCommand extends Command{
 
-    private Integer bookID;
+    private String bookName;
     public String fileName = "src/project1/Command.ser";
 
-    sellBookCommand(Integer BookID) { this.bookID =  BookID; }
+    sellBookCommand(String bookName) { this.bookName=  bookName; }
 
     @Override
     public void execute(concreteInventory inventory) {
         try {
-            inventory.sellBook(bookID);
+            inventory.sellBook(bookName);
         } catch (MatchNotFoundException e) {
             e.printStackTrace();
         }
