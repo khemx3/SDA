@@ -7,13 +7,13 @@ import java.io.ObjectOutputStream;
 /*
 This class used to execute addBook method on inventory and serialize it to file.
 */
-public class changePriceCopyCommand extends Command{
+public class changePriceCommand extends Command{
 
     private Integer bookId;
     private Double newPrice;
     public String fileName = "src/project1/Command.ser";
 
-    changePriceCopyCommand(Integer bookID, Double newPrice) {
+    changePriceCommand(Integer bookID, Double newPrice) {
         this.bookId =  bookID;
         this.newPrice = newPrice;
     }

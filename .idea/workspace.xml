@@ -34,10 +34,6 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
-  </component>
   <component name="ProjectId" id="1Wpf834g2ta1XYVktwjOE3RqBJQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -228,7 +224,7 @@
       <workItem from="1583574922125" duration="524000" />
       <workItem from="1583575848783" duration="161000" />
       <workItem from="1583579207251" duration="2591000" />
-      <workItem from="1583660153393" duration="937000" />
+      <workItem from="1583660153393" duration="1178000" />
     </task>
     <servers />
   </component>
