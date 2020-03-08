@@ -22,9 +22,18 @@ public class concreteInventory implements Inventory {
     }
 
 
-    public void addBook(Book book)
-    {
-        bookList.add(book);
+    public void addBook(Book book) {
+        if (!bookList.isEmpty()) {
+            int lastBookID = bookList.get(bookList.size() - 1).getUniqueID()+1;
+
+            book.setUniqueId(lastBookID);
+            bookList.add(book);
+        } else
+        {
+            bookList.add(book);
+        }
+//        bookList.add(book);
+//        this.saveState();
     }
 
     /* to use this sellBook() method, quantity if that id must more than 1 */
@@ -121,5 +130,4 @@ public class concreteInventory implements Inventory {
             System.out.println(String.format("%s %9s %16s %14s" ,book.getUniqueID(),book.getName(),book.getPrice(),book.getQuantity()));
         }
     }
-
 }

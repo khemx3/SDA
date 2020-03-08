@@ -126,6 +126,4 @@ public class decoratorInventory implements Inventory{
     public void listBook(){
         inventory.listBook();
     }
-
-
 }

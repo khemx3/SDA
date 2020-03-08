@@ -18,7 +18,7 @@ public class Book implements Serializable {
     public void changeQuantity(int change){
         this.quantity += change;
     }
-
+    public void setUniqueId(int id) { this.uniqueID = id; }
     public Double getPrice() { return price; }
     public void setPrice(Double price) {
         this.price = price;
