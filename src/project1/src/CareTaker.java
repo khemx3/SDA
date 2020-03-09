@@ -5,8 +5,7 @@ import java.io.*;
 public class CareTaker {
     private Object object;
     private String fileName = "src/project1/Inventory.ser";
-    byte[] buf = new byte[1024];
-    int bytesRead;
+
 
     public void serializeMemento(Memento state) {
         // object to stream
@@ -19,9 +18,6 @@ public class CareTaker {
         }catch(IOException i) {}
     }
 
-    public void saveCommand(Command command){
-
-    }
     public Memento deserializeMemento() {
         // stream to object
         try

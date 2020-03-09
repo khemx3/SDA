@@ -5,16 +5,25 @@ import java.util.ArrayList;
 
 public class decoratorInventory implements Inventory{
 
-    private concreteInventory inventory = new concreteInventory();
-    private FileInputStream fileIn ;
-    private ArrayList<Command> commandList = new ArrayList<Command>();
-    private ArrayList<Command> oldCommandList = new ArrayList<Command>();
-    private CareTaker careTaker = new CareTaker();
-    private Memento memento = new Memento();
-    private String CommandFileName = "src/project1/Command.ser";
-    private String oldCommandFileName = "src/project1/oldCommand.ser";
+    private concreteInventory inventory;
+    private FileInputStream fileIn;
+    private ArrayList<Command> commandList;
+    private ArrayList<Command> oldCommandList;
+    private CareTaker careTaker;
+    private Memento memento;
+    private String CommandFileName;
+    private String oldCommandFileName;
 
-
+    public decoratorInventory()
+    {
+        inventory = new concreteInventory();
+        commandList = new ArrayList<Command>();
+        oldCommandList = new ArrayList<Command>();
+        careTaker = new CareTaker();
+        memento = new Memento();
+        CommandFileName = "src/project1/Command.ser";
+        oldCommandFileName = "src/project1/oldCommand.ser";
+    }
     public concreteInventory getInventory() {
         return inventory;
     }
