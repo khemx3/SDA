@@ -92,7 +92,7 @@ public class decoratorInventory implements Inventory{
     {
         for(Command i: commandList)
         {
-           System.out.print(i);
+           System.out.println(i);
         }
     }
     private void replyCommands(concreteInventory inventory) throws MatchNotFoundException {
@@ -150,9 +150,13 @@ public class decoratorInventory implements Inventory{
     }
 
     public void getState() throws MatchNotFoundException {
-        memento = careTaker.deserializeMemento();
-        inventory.setBookList(memento.getState());
-        this.replyCommands(inventory);
+        try {
+            memento = careTaker.deserializeMemento();
+            inventory.setBookList(memento.getState());
+            this.replyCommands(inventory);
+        } catch (Exception e) {
+            this.replyCommands(inventory);
+        }
     }
 
     public void listBook(){

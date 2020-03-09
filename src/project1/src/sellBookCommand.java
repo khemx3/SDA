@@ -21,7 +21,6 @@ public class  sellBookCommand extends Command{
         try {
             inventory.sellBook(bookName);
         } catch (MatchNotFoundException e) {
-            e.printStackTrace();
         }
 
         try {
