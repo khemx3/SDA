@@ -7,12 +7,14 @@ import java.io.ObjectOutputStream;
 /*
 This class used to execute addBook method on inventory and serialize it to file.
 */
-public class sellBookCommand extends Command{
+public class  sellBookCommand extends Command{
 
     private String bookName;
     public String fileName = "src/project1/Command.ser";
 
-    sellBookCommand(String bookName) { this.bookName=  bookName; }
+    sellBookCommand(String bookName) {
+        this.bookName=  bookName;
+    }
 
     @Override
     public void execute(concreteInventory inventory) {
@@ -31,5 +33,12 @@ public class sellBookCommand extends Command{
         } catch (IOException i) {
 
         }
+    }
+
+    @Override
+    public void rollback(concreteInventory inventory)throws MatchNotFoundException {
+        Book book = inventory.findBook(this.bookName);
+        inventory.addBook(book.getName(),book.getPrice(),1);
+
     }
 }

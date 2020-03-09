@@ -11,6 +11,7 @@ public class changePriceCommand extends Command{
 
     private String bookName;
     private Double newPrice;
+    private Double oldPrice;
     public String fileName = "src/project1/Command.ser";
 
     changePriceCommand(String bookName, Double newPrice) {
@@ -19,8 +20,8 @@ public class changePriceCommand extends Command{
     }
 
     @Override
-    public void execute(concreteInventory inventory) {
-
+    public void execute(concreteInventory inventory) throws MatchNotFoundException {
+        oldPrice = inventory.findBook(bookName).getPrice();
         try {
             inventory.changePrice(bookName,newPrice);
         } catch (MatchNotFoundException e) {
@@ -37,4 +38,11 @@ public class changePriceCommand extends Command{
 
         }
     }
+
+    @Override
+    public void rollback(concreteInventory inventory) throws MatchNotFoundException {
+        inventory.changePrice(bookName,oldPrice);
+    }
+
+
 }

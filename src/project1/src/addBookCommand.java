@@ -11,13 +11,20 @@ public class addBookCommand extends Command{
 
     private Book book;
     public String fileName = "src/project1/Command.ser";
+    Double price;
+    String name;
+    Integer qualiity;
 
-    addBookCommand(Book newBook) { this.book =  newBook; }
+    addBookCommand(String name,double price,Integer qualiity) {
+        this.name = name;
+        this.price = price;
+        this.qualiity = qualiity;
+    }
 
     @Override
-    public void execute(concreteInventory inventory) {
+    public void execute(concreteInventory inventory) throws MatchNotFoundException {
 
-        inventory.addBook(book);
+        inventory.addBook(name,price,qualiity);
 
         try {
             FileOutputStream fileOut = new FileOutputStream(fileName,true);
@@ -29,4 +36,12 @@ public class addBookCommand extends Command{
 
         }
     }
+
+    @Override
+    public void rollback(concreteInventory inventory) throws MatchNotFoundException {
+        for (Integer i = 0; i < qualiity; i++) {
+            inventory.sellBook(name);
+        }
+    }
 }
+

@@ -8,9 +8,11 @@ public class decoratorInventory implements Inventory{
     private concreteInventory inventory = new concreteInventory();
     private FileInputStream fileIn ;
     private ArrayList<Command> commandList = new ArrayList<Command>();
+    private ArrayList<Command> oldCommandList = new ArrayList<Command>();
     private CareTaker careTaker = new CareTaker();
     private Memento memento = new Memento();
     private String CommandFileName = "src/project1/Command.ser";
+    private String oldCommandFileName = "src/project1/oldCommand.ser";
 
 
     public concreteInventory getInventory() {
@@ -21,25 +23,29 @@ public class decoratorInventory implements Inventory{
         this.inventory = inventory;
     }
 
-    public void addBook(Book book) {
-        addBookCommand addBook = new addBookCommand(book);
+    public void addBook(String name,double price,Integer qualiity) throws MatchNotFoundException {
+        addBookCommand addBook = new addBookCommand(name,price,qualiity);
+        commandList.add(addBook);
         addBook.execute(inventory);
 
     }
 
     public void sellBook(String bookName) throws MatchNotFoundException {
         sellBookCommand sellBook = new sellBookCommand(bookName);
+        commandList.add(sellBook);
         sellBook.execute(inventory);
 
     }
 
     public void addCopy(String bookName, Integer numberOfCopy) throws MatchNotFoundException {
         addCopyCommand addCopyCommand = new addCopyCommand(bookName,numberOfCopy);
+        commandList.add(addCopyCommand);
         addCopyCommand.execute(inventory);
     }
 
     public void changePrice(String bookName, Double newPrice) throws MatchNotFoundException {
         changePriceCommand changePriceCommand = new changePriceCommand(bookName,newPrice);
+        commandList.add(changePriceCommand);
         changePriceCommand.execute(inventory);
     }
 
@@ -68,8 +74,19 @@ public class decoratorInventory implements Inventory{
      * This method get the commands from file
      * and also runs them to inventory object
      */
-
-    private void replyCommands(concreteInventory inventory){
+    public void reroll() throws MatchNotFoundException {
+        Command command = commandList.get(commandList.size()-1);
+        command.rollback(inventory);
+        commandList.remove(commandList.size()-1);
+    }
+    public void listCommand()
+    {
+        for(Command i: commandList)
+        {
+           System.out.print(i);
+        }
+    }
+    private void replyCommands(concreteInventory inventory) throws MatchNotFoundException {
 
         try {
             fileIn = new FileInputStream(CommandFileName);
@@ -100,13 +117,20 @@ public class decoratorInventory implements Inventory{
         }
     }
 
-    @Override
     public void saveState() {
         memento.saveState(inventory.getBookList());
         careTaker.serializeMemento(memento);
-
+        commandList = new ArrayList<Command>();
         File file = new File(CommandFileName);
-        file.delete();
+        try {
+            FileOutputStream fileOut = new FileOutputStream(oldCommandFileName,true);
+            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+            out.writeObject(file);
+            out.close();
+            fileOut.close();
+            file.delete();
+        } catch (IOException i) { file.delete();
+        }
 
         try {
             file.createNewFile();
@@ -116,8 +140,7 @@ public class decoratorInventory implements Inventory{
 
     }
 
-    @Override
-    public void getState() {
+    public void getState() throws MatchNotFoundException {
         memento = careTaker.deserializeMemento();
         inventory.setBookList(memento.getState());
         this.replyCommands(inventory);

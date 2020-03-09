@@ -1,3 +1,4 @@
+package lab5.task1;
 
 public class DocumentEraseCommand implements Command {
 

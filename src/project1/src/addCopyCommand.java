@@ -9,6 +9,7 @@ This class used to execute addBook method on inventory and serialize it to file.
 */
 public class addCopyCommand extends Command{
 
+
     private String bookName;
     private Integer numberOfCopy;
     public String fileName = "src/project1/Command.ser";
@@ -33,6 +34,13 @@ public class addCopyCommand extends Command{
             fileOut.close();
         } catch (IOException i) {
 
+        }
+    }
+
+    @Override
+    public void rollback(concreteInventory inventory) throws MatchNotFoundException {
+        for (Integer i = 0; i < numberOfCopy; i++) {
+            inventory.sellBook(bookName);
         }
     }
 }

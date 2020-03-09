@@ -8,54 +8,47 @@ import java.util.ArrayList;
 
 public class concreteInventory implements Inventory {
 
-    private ArrayList<Book> bookList = new ArrayList <Book>();
-    private Memento memento = new Memento();
-
-    private String CommandFileName = "src/project1/Command.ser";
-    private decoratorInventory inventory;
+    private ArrayList<Book> bookList;
     public ArrayList<Book> getBookList() {
         return  bookList;
+    }
+
+    public concreteInventory()
+    {
+        bookList = new ArrayList <Book>();
     }
 
     public void setBookList(ArrayList<Book> bookList) {
         this.bookList = bookList;
     }
 
-
-    public void addBook(Book book) {
-        if (!bookList.isEmpty()) {
-            int lastBookID = bookList.get(bookList.size() - 1).getUniqueID()+1;
-
-            book.setUniqueId(lastBookID);
-            bookList.add(book);
-        } else
-        {
-            bookList.add(book);
+    public void addBook(String name,double price,Integer qualiity) throws MatchNotFoundException {
+        try {
+            findBook(name);
+            addCopy(name,qualiity);
+        }catch(MatchNotFoundException e){
+            if (!bookList.isEmpty()) {
+                Integer newId = bookList.get(bookList.size() - 1).getUniqueID()+1;
+                Book book = new Book(newId,name,price,qualiity);
+                bookList.add(book);
+            } else
+            {
+                Book book = new Book(1,name,price,qualiity);
+                bookList.add(book);
+            }
         }
-//        bookList.add(book);
-//        this.saveState();
     }
 
     /* to use this sellBook() method, quantity if that id must more than 1 */
     public void sellBook(String bookName) throws MatchNotFoundException{
         for (Book book :bookList){
-            if (book.getName().equals(bookName) && book.getQuantity() > 1){
+            if (book.getName().equals(bookName) && book.getQuantity() >= 1){
                 book.changeQuantity(-1);
+                return;
             }
-            return;
         }
         throw new MatchNotFoundException("No Match Found");
-
-//        for (Book book : bookList) {
-//            if (book.getUniqueID().equals(bookID) && book.getQuantity() > 1) {
-//                book.changeQuantity(-1);
-//                this.saveState();
-//            }
-//            return;
-//        }
-//        throw new MatchNotFoundException("No Match Found");
     }
-
 
     public void addCopy(String bookName, Integer numberOfCopy) throws MatchNotFoundException{
         for (Book book: bookList ) {
@@ -98,31 +91,14 @@ public class concreteInventory implements Inventory {
         throw new MatchNotFoundException("No Match Found");
     }
 
-
-    /*
-    This method saves the state of inventory to file
-    and delete the commnadfile.
-    */
-    public void saveState() {
-        memento.saveState(bookList);
-        File file = new File(CommandFileName);
-        file.delete();
-        try {
-            file.createNewFile();
-        } catch (IOException e) {
-            e.printStackTrace();
+    public Book findBook(String bookName) throws  MatchNotFoundException{
+        for(Book book:bookList){
+            if(book.getName().equals(bookName)) {
+                return book;
+            }
         }
+        throw new MatchNotFoundException("No Match Found");
     }
-
-    /*
-    This method get the previous state of inventory from file
-    and also runs command to take inventory to original state
-    */
-    public void getState() {
-        inventory.getState();
-        bookList = (inventory.getInventory().getBookList());
-    }
-
     public void listBook(){
         System.out.println("BookID\tName\t\t\tPrice\t\tQuality");
         for(Book book : bookList)

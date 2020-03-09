@@ -1,4 +1,4 @@
-
+package lab5.task1;
 public class DocumentWriteCommand implements Command {
 
 	private Document editableDoc;

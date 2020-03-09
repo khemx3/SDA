@@ -19,6 +19,9 @@ public class CareTaker {
         }catch(IOException i) {}
     }
 
+    public void saveCommand(Command command){
+
+    }
     public Memento deserializeMemento() {
         // stream to object
         try
