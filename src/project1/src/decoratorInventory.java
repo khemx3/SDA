@@ -5,25 +5,15 @@ import java.util.ArrayList;
 
 public class decoratorInventory implements Inventory{
 
-    private concreteInventory inventory;
+    private concreteInventory inventory = new concreteInventory();
     private FileInputStream fileIn;
-    private ArrayList<Command> commandList;
-    private ArrayList<Command> oldCommandList;
-    private CareTaker careTaker;
-    private Memento memento;
-    private String CommandFileName;
-    private String oldCommandFileName;
+    private ArrayList<Command> commandList = new ArrayList<Command>();;
+    private ArrayList<Command> oldCommandList = new ArrayList<Command>();
+    private CareTaker careTaker  = new CareTaker();
+    private Memento memento = new Memento();
+    private String CommandFileName  = "src/project1/Command.ser";
+    private String oldCommandFileName = "src/project1/oldCommand.ser";
 
-    public decoratorInventory()
-    {
-        inventory = new concreteInventory();
-        commandList = new ArrayList<Command>();
-        oldCommandList = new ArrayList<Command>();
-        careTaker = new CareTaker();
-        memento = new Memento();
-        CommandFileName = "src/project1/Command.ser";
-        oldCommandFileName = "src/project1/oldCommand.ser";
-    }
     public concreteInventory getInventory() {
         return inventory;
     }
@@ -109,16 +99,15 @@ public class decoratorInventory implements Inventory{
                 fileIn.close();
             }catch(IOException i)
             {
-                i.printStackTrace();
+                System.out.println("File not found ");
             }
 
         }catch(IOException i)
         {
-            i.printStackTrace();
+
         }catch(ClassNotFoundException c)
         {
-            System.out.println("class not found");
-            c.printStackTrace();
+
         }
 
         for(Command command : commandList){
@@ -155,7 +144,12 @@ public class decoratorInventory implements Inventory{
             inventory.setBookList(memento.getState());
             this.replyCommands(inventory);
         } catch (Exception e) {
-            this.replyCommands(inventory);
+            try {
+                this.replyCommands(inventory);
+            }
+            catch (Exception w){
+
+            }
         }
     }
 
