@@ -4,9 +4,6 @@
     <list default="true" id="0d7038f9-565a-472f-bcdc-2c56b02ffb4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="SDA.vpdm/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,104 +12,12 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/project1/BookStoreDemo.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/project1/Originator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/project1/Memento.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/project1/Book.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/project1/example/Originator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/project1/example/Memento.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/project1/example/CareTaker.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/project1/example/MementoPatternDemo.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>add</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,73 +29,9 @@
       </set>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/EatBreakfast.java" />
-        <option value="$PROJECT_DIR$/src/lab5/task2/AbstractBreakfast.java" />
-        <option value="$PROJECT_DIR$/src/lab5/lect05/lect5Code/templatemethod/barista/BeverageTestDrive.java" />
-        <option value="$PROJECT_DIR$/src/lab5/task2/EatBreakfast.java" />
-        <option value="$PROJECT_DIR$/src/lab5/task2/SunnySide.java" />
-        <option value="$PROJECT_DIR$/src/lab5/task2/Omelette.java" />
-        <option value="$PROJECT_DIR$/src/lab5/task2/ScrambledEggs.java" />
-        <option value="$PROJECT_DIR$/src/project1/CareTaker.java" />
-        <option value="$PROJECT_DIR$/src/project1/MementoPatternDemo.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/project1/example/MementoPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/project1/BookStore.java" />
-        <option value="$PROJECT_DIR$/src/project1/BookStoreDemo.java" />
-        <option value="$PROJECT_DIR$/src/project1/Inventory.java" />
-        <option value="$PROJECT_DIR$/src/project1/Originator.java" />
-        <option value="$PROJECT_DIR$/src/project1/Memento.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
-  </component>
   <component name="ProjectId" id="1Wpf834g2ta1XYVktwjOE3RqBJQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -233,25 +74,13 @@
       <recent name="$PROJECT_DIR$/src/pattern" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.MementoPatternDemo">
-    <configuration name="BeverageTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab5.lect05.lect5Code.templatemethod.barista.BeverageTestDrive" />
+  <component name="RunManager" selected="Application.BookStoreDemo">
+    <configuration name="BookStoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project1.src.BookStoreDemo" />
       <module name="SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab5.lect05.lect5Code.templatemethod.barista.*" />
+          <option name="PATTERN" value="project1.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggerTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab4.lect4Code.Logger.LoggerTester" />
+    <configuration name="CourseViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.nonpattern.CourseViewer" />
       <module name="SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab4.lect4Code.Logger.*" />
+          <option name="PATTERN" value="lab1.nonpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MementoPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="project1.MementoPatternDemo" />
+    <configuration name="check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project1.src.check" />
       <module name="SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="project1.*" />
+          <option name="PATTERN" value="project1.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab3.lab3Code.xmastree.Test_tree" />
+    <configuration name="gui (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.nonpattern.gui" />
       <module name="SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab3.lab3Code.xmastree.*" />
+          <option name="PATTERN" value="lab1.nonpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurkeyTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab6.adapter.TurkeyTestDrive" />
+    <configuration name="gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project1.src.gui" />
       <module name="SDA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab6.adapter.*" />
+          <option name="PATTERN" value="project1.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeverageTestDrive" />
-      <item itemvalue="Application.Test_tree" />
-      <item itemvalue="Application.LoggerTester" />
-      <item itemvalue="Application.TurkeyTestDrive" />
-      <item itemvalue="Application.MementoPatternDemo" />
+      <item itemvalue="Application.BookStoreDemo" />
+      <item itemvalue="Application.CourseViewer" />
+      <item itemvalue="Application.gui" />
+      <item itemvalue="Application.gui (1)" />
+      <item itemvalue="Application.check" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MementoPatternDemo" />
-        <item itemvalue="Application.TurkeyTestDrive" />
-        <item itemvalue="Application.BeverageTestDrive" />
-        <item itemvalue="Application.LoggerTester" />
-        <item itemvalue="Application.Test_tree" />
+        <item itemvalue="Application.BookStoreDemo" />
+        <item itemvalue="Application.gui" />
+        <item itemvalue="Application.check" />
+        <item itemvalue="Application.gui (1)" />
+        <item itemvalue="Application.CourseViewer" />
       </list>
     </recent_temporary>
   </component>
@@ -389,47 +218,14 @@
       <workItem from="1583574316977" duration="402000" />
       <workItem from="1583574922125" duration="524000" />
       <workItem from="1583575848783" duration="161000" />
-      <workItem from="1583579207251" duration="1472000" />
+      <workItem from="1583579207251" duration="2591000" />
+      <workItem from="1583660153393" duration="9112000" />
+      <workItem from="1583674607162" duration="878000" />
+      <workItem from="1583688480074" duration="745000" />
+      <workItem from="1583690297323" duration="24076000" />
+      <workItem from="1583718896568" duration="4620000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6896000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1892552" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32908705" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31327802" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32780084" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -446,10 +242,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1579851244135" />
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1580660857771">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583661746596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580660857771" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583661746596" />
+    <state x="492" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583664203967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="492" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583664203967" />
+    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1583705476050">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583705476050" />
+    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583661743887">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1583661743887" />
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583660207405">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1583660207405" />
     <state x="566" y="298" width="403" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580659831153">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -462,42 +274,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579851257588" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581909394410">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1583684907061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581909394410" />
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1581914573913">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583684907061" />
+    <state width="1493" height="168" key="GridCell.Tab.0.bottom" timestamp="1583723556860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581914573913" />
-    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1581914573913">
+    <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583723556860" />
+    <state width="1493" height="168" key="GridCell.Tab.0.center" timestamp="1583723556860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581914573913" />
-    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1581914573913">
+    <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583723556860" />
+    <state width="1493" height="168" key="GridCell.Tab.0.left" timestamp="1583723556860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581914573913" />
-    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1581914573913">
+    <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583723556860" />
+    <state width="1493" height="168" key="GridCell.Tab.0.right" timestamp="1583723556860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581914573913" />
+    <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583723556860" />
+    <state width="1493" height="254" key="GridCell.Tab.1.bottom" timestamp="1583722888122">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583722888122" />
+    <state width="1493" height="254" key="GridCell.Tab.1.center" timestamp="1583722888121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583722888121" />
+    <state width="1493" height="254" key="GridCell.Tab.1.left" timestamp="1583722888121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583722888121" />
+    <state width="1493" height="254" key="GridCell.Tab.1.right" timestamp="1583722888121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583722888121" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1581907667095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581907667095" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581908782383">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583719030172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581908782383" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1579969529958">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583719030172" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1583721891847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579969529958" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579866747179">
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1583721891847" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583672835654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579866747179" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583672835654" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,588 +333,15 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/lab2/task1/pull/BabyMonitorSimple.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lab5/lect05/lect5Code/templatemethod/barista/Tea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/lab5.task2">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>lab5.task2</OriginalElement>
-          <nodes>
-            <node x="" y="">lab5.task2.AbstractBreakfast</node>
-            <node x="" y="">lab5.task2.EatBreakfast</node>
-            <node x="" y="">lab5.task2.Omelette</node>
-            <node x="" y="">lab5.task2.ScrambledEggs</node>
-            <node x="" y="">lab5.task2.SunnySide</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="156.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/lect05/lect5Code/templatemethod/simplebarista/Tea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/task2/EatBreakfast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/task2/AbstractBreakfast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/task2/ScrambledEggs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lab3Code/xmastree/BallsBlue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/lab3.lab3Code.xmastree">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>lab3.lab3Code.xmastree</OriginalElement>
-          <nodes>
-            <node x="1036.0" y="89.0">lab3.lab3Code.xmastree.BlueSpruce</node>
-            <node x="0.0" y="188.0">lab3.lab3Code.xmastree.BallsSilver</node>
-            <node x="614.0" y="89.0">lab3.lab3Code.xmastree.FraserFir</node>
-            <node x="252.0" y="188.0">lab3.lab3Code.xmastree.LEDS</node>
-            <node x="586.0" y="188.0">lab3.lab3Code.xmastree.BallsRed</node>
-            <node x="898.0" y="89.0">lab3.lab3Code.xmastree.BalsamFir</node>
-            <node x="847.0" y="0.0">lab3.lab3Code.xmastree.Tree</node>
-            <node x="976.0" y="188.0">lab3.lab3Code.xmastree.RealStar</node>
-            <node x="444.0" y="89.0">lab3.lab3Code.xmastree.TreeDecorator</node>
-            <node x="854.0" y="188.0">lab3.lab3Code.xmastree.Ruffles</node>
-            <node x="1182.0" y="89.0">lab3.lab3Code.xmastree.ColoradoBlueSpruce</node>
-            <node x="752.0" y="89.0">lab3.lab3Code.xmastree.DouglasFir</node>
-            <node x="154.0" y="188.0">lab3.lab3Code.xmastree.Star</node>
-            <node x="472.0" y="188.0">lab3.lab3Code.xmastree.Lights</node>
-            <node x="350.0" y="188.0">lab3.lab3Code.xmastree.Ribbons</node>
-            <node x="716.0" y="188.0">lab3.lab3Code.xmastree.BallsBlue</node>
-            <node x="0.0" y="262.0">lab3.lab3Code.xmastree.Test_tree</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="lab3.lab3Code.xmastree.Ribbons" target="lab3.lab3Code.xmastree.TreeDecorator">
-              <point x="0.0" y="-14.5" />
-              <point x="401.0" y="168.0" />
-              <point x="502.33333333333337" y="168.0" />
-              <point x="-16.66666666666663" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.BlueSpruce" target="lab3.lab3Code.xmastree.Tree">
-              <point x="0.0" y="-14.5" />
-              <point x="1099.0" y="59.0" />
-              <point x="905.5" y="59.0" />
-              <point x="19.5" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.Star" target="lab3.lab3Code.xmastree.TreeDecorator">
-              <point x="0.0" y="-14.5" />
-              <point x="193.0" y="148.0" />
-              <point x="469.0" y="148.0" />
-              <point x="-50.0" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.TreeDecorator" target="lab3.lab3Code.xmastree.Tree">
-              <point x="0.0" y="-14.5" />
-              <point x="519.0" y="49.0" />
-              <point x="853.5" y="49.0" />
-              <point x="-32.5" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.LEDS" target="lab3.lab3Code.xmastree.TreeDecorator">
-              <point x="0.0" y="-14.5" />
-              <point x="291.0" y="158.0" />
-              <point x="485.66666666666663" y="158.0" />
-              <point x="-33.33333333333337" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.BallsRed" target="lab3.lab3Code.xmastree.TreeDecorator">
-              <point x="0.0" y="-14.5" />
-              <point x="641.0" y="168.0" />
-              <point x="535.6666666666667" y="168.0" />
-              <point x="16.666666666666742" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.RealStar" target="lab3.lab3Code.xmastree.TreeDecorator">
-              <point x="0.0" y="-14.5" />
-              <point x="1031.0" y="138.0" />
-              <point x="585.6666666666667" y="138.0" />
-              <point x="66.66666666666674" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.BallsBlue" target="lab3.lab3Code.xmastree.TreeDecorator">
-              <point x="0.0" y="-14.5" />
-              <point x="775.0" y="158.0" />
-              <point x="552.3333333333334" y="158.0" />
-              <point x="33.33333333333337" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.BallsSilver" target="lab3.lab3Code.xmastree.TreeDecorator">
-              <point x="0.0" y="-14.5" />
-              <point x="67.0" y="138.0" />
-              <point x="452.33333333333337" y="138.0" />
-              <point x="-66.66666666666663" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.FraserFir" target="lab3.lab3Code.xmastree.Tree">
-              <point x="0.0" y="-14.5" />
-              <point x="673.0" y="59.0" />
-              <point x="866.5" y="59.0" />
-              <point x="-19.5" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.DouglasFir" target="lab3.lab3Code.xmastree.Tree">
-              <point x="0.0" y="-14.5" />
-              <point x="815.0" y="69.0" />
-              <point x="879.5" y="69.0" />
-              <point x="-6.5" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.ColoradoBlueSpruce" target="lab3.lab3Code.xmastree.Tree">
-              <point x="0.0" y="-14.5" />
-              <point x="1277.0" y="49.0" />
-              <point x="918.5" y="49.0" />
-              <point x="32.5" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.Lights" target="lab3.lab3Code.xmastree.TreeDecorator">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.Ruffles" target="lab3.lab3Code.xmastree.TreeDecorator">
-              <point x="0.0" y="-14.5" />
-              <point x="905.0" y="148.0" />
-              <point x="569.0" y="148.0" />
-              <point x="50.0" y="14.5" />
-            </edge>
-            <edge source="lab3.lab3Code.xmastree.BalsamFir" target="lab3.lab3Code.xmastree.Tree">
-              <point x="0.0" y="-14.5" />
-              <point x="957.0" y="69.0" />
-              <point x="892.5" y="69.0" />
-              <point x="6.5" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.828125" x="297.0" y="92.0" />
-          <SelectedNodes>
-            <node>lab3.lab3Code.xmastree.TreeDecorator</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lab3Code/xmastree/Test_tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lab3Code/xmastree/TreeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/task2/Omelette.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/task2/SunnySide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/lab3.lect3Code.FactoryMethod">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>lab3.lect3Code.FactoryMethod</OriginalElement>
-          <nodes>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.PizzaStore</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.NYStyleClamPizza</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.NYPizzaStore</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.ChicagoStyleCheesePizza</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.ChicagoStylePepperoniPizza</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.ChicagoStyleVeggiePizza</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.NYStyleCheesePizza</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.ChicagoStyleClamPizza</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.DependentPizzaStore</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.NYStyleVeggiePizza</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.ChicagoPizzaStore</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.Pizza</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.PizzaTestDrive</node>
-            <node x="" y="">lab3.lect3Code.FactoryMethod.NYStylePepperoniPizza</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7235991379310345" x="918.0" y="141.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lect3Code/FactoryMethod/ChicagoPizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lect3Code/FactoryMethod/ChicagoStyleCheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lab3Code/xmastree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lab3Code/xmastree/BallsSilver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lab3Code/xmastree/BlueSpruce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lab3Code/xmastree/Star.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lect3Code/FactoryMethod/PizzaTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/lab4.lect4Code.Logger">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>lab4.lect4Code.Logger</OriginalElement>
-          <nodes>
-            <node x="" y="">lab4.lect4Code.Logger.Logger</node>
-            <node x="" y="">lab4.lect4Code.Logger.LoggerTester</node>
-            <node x="" y="">lab4.lect4Code.Logger.Test</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="71.0" y="89.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab4/lect4Code/Logger/LoggerTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab4/lect4Code/Logger/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab4/lect4Code/Logger/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/lect05/lect5Code/templatemethod/frame/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab3/lab3Code/xmastree/Ruffles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/lect05/lect5Code/templatemethod/barista/TeaWithHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/lect05/lect5Code/templatemethod/barista/CaffeineBeverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/lect05/lect5Code/templatemethod/barista/BeverageTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/lect05/lect5Code/templatemethod/barista/CoffeeWithHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/lect05/lect5Code/templatemethod/barista/CaffeineBeverageWithHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/lab5.lect05.lect5Code.templatemethod.barista">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>lab5.lect05.lect5Code.templatemethod.barista</OriginalElement>
-          <nodes>
-            <node x="433.0" y="373.0">lab5.lect05.lect5Code.templatemethod.barista.BeverageTestDrive</node>
-            <node x="0.0" y="562.0">lab5.lect05.lect5Code.templatemethod.barista.Tea</node>
-            <node x="0.0" y="211.0">lab5.lect05.lect5Code.templatemethod.barista.CoffeeWithHook</node>
-            <node x="204.0" y="562.0">lab5.lect05.lect5Code.templatemethod.barista.Coffee</node>
-            <node x="102.0" y="373.0">lab5.lect05.lect5Code.templatemethod.barista.CaffeineBeverage</node>
-            <node x="150.5" y="0.0">lab5.lect05.lect5Code.templatemethod.barista.CaffeineBeverageWithHook</node>
-            <node x="301.0" y="211.0">lab5.lect05.lect5Code.templatemethod.barista.TeaWithHook</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="lab5.lect05.lect5Code.templatemethod.barista.CoffeeWithHook" target="lab5.lect05.lect5Code.templatemethod.barista.CaffeineBeverageWithHook">
-              <point x="0.0" y="-58.5" />
-              <point x="140.5" y="186.0" />
-              <point x="220.75" y="186.0" />
-              <point x="-70.25" y="80.5" />
-            </edge>
-            <edge source="lab5.lect05.lect5Code.templatemethod.barista.TeaWithHook" target="lab5.lect05.lect5Code.templatemethod.barista.CaffeineBeverageWithHook">
-              <point x="0.0" y="-58.5" />
-              <point x="441.5" y="186.0" />
-              <point x="361.25" y="186.0" />
-              <point x="70.25" y="80.5" />
-            </edge>
-            <edge source="lab5.lect05.lect5Code.templatemethod.barista.Coffee" target="lab5.lect05.lect5Code.templatemethod.barista.CaffeineBeverage">
-              <point x="0.0" y="-36.5" />
-              <point x="296.0" y="537.0" />
-              <point x="240.0" y="537.0" />
-              <point x="46.0" y="69.5" />
-            </edge>
-            <edge source="lab5.lect05.lect5Code.templatemethod.barista.Tea" target="lab5.lect05.lect5Code.templatemethod.barista.CaffeineBeverage">
-              <point x="0.0" y="-36.5" />
-              <point x="92.0" y="537.0" />
-              <point x="148.0" y="537.0" />
-              <point x="-46.0" y="69.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-274.0" y="137.0" />
-          <SelectedNodes>
-            <node>lab5.lect05.lect5Code.templatemethod.barista.TeaWithHook</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab6/adapter/TurkeyTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/project1.CareTaker">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>project1.CareTaker</OriginalElement>
-          <nodes>
-            <node x="" y="">project1.Originator</node>
-            <node x="" y="">project1.CareTaker</node>
-            <node x="" y="">project1.MementoPatternDemo</node>
-            <node x="" y="">project1.Memento</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="126.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/project1/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/example/momento uml.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/CareTaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/example/MementoPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/Originator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/BookStoreDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/Memento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/example/CareTaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/example/Memento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/example/Originator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="commandList" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>

@@ -1,3 +1,4 @@
+package lab5.task1;
 import java.util.ArrayList;
 
 public class DocumentInvoker {

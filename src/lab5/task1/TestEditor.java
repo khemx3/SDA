@@ -1,3 +1,4 @@
+package lab5.task1;
 public class TestEditor {
 	public static void main(String[] args) {
 	DocumentInvoker myDocument = new DocumentInvoker ("callmemaybe");
