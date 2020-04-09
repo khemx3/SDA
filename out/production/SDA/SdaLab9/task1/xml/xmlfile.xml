@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Shape><Rectangle id="1">Rectangle{x2=200, y2=100, x=10, y=10}
+Rectangle{x2=300, y2=200, x=110, y=110}
+</Rectangle><Circle>Circle{r=30, x=250, y=250}
+</Circle><Polygon>Polygon{x=[10, 50, 90, 120, 150, 170], y=[170, 180, 200, 150, 130, 10], side=6}
+</Polygon></Shape>
